@@ -56,11 +56,12 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  padding: 0px 120px;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding-top: 20px;
 }
 .nav-links {
   display: flex;
