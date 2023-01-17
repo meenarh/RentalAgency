@@ -33,9 +33,9 @@
           </select>
           <div class="search">
             <input type="search" />
-            <font-awesome-icon
+            <!-- <font-awesome-icon
               icon="fa-sharp fa-solid fa-magnifying-glass"
-            />
+            /> -->
           </div>
         </div>
       </div>
