@@ -5,6 +5,7 @@ import Home from './components/Home.vue';
 <template>
     <div id="app">
       <Home/>
+      <!-- this is a comment -->
     </div>
 </template>
 
