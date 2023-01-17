@@ -3,10 +3,10 @@
     <nav>
       <img src="../assets/images/logo 1.png" alt="logo" />
       <ul class="nav-links">
-        <li>Home</li>
-        <li>Landlord</li>
-        <li>Tenant</li>
-        <li>Contact Us</li>
+        <a href="#">Home</a>
+        <a href="#">Landlord</a>
+        <a href="#">Tenant</a>
+        <a href="#">Contact Us</a>
       </ul>
     </nav>
     <hr/>
@@ -51,7 +51,8 @@ export default {
 
 <style scoped>
 .home {
-  background-image: url("../assets/images/home-background.jpg");
+  background-image: url("../assets/images/home-background.jpg"),
+    linear-gradient(200.44deg, rgba(0, 0, 0, 0.0001) 16.41%, rgba(0, 0, 0, 0.51) 77.16%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,16 +81,23 @@ nav img {
   list-style: none;
   justify-content: center;
 }
-.nav-links li {
+.nav-links a {
+  text-decoration: none;
   padding: 0 20px;
   font-size: 20px;
   font-weight: 500;
   color: #fff;
 }
 
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
 hr{
   width: 80%;
   margin-left: 10%;
+  top: 10px;
 }
 
 .main {
@@ -149,11 +157,10 @@ select {
 button {
   position: relative;
   width: 50px;
-  height: 50px;
+  height: 52px;
   background: #23a6f0;
   border: 1px solid #e6e6e6;
   border-radius: 0px 5px 5px 0px;
-  color: white;
   cursor: pointer;
 }
 
