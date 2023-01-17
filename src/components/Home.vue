@@ -9,6 +9,8 @@
         <li>Contact Us</li>
       </ul>
     </nav>
+    <hr/>
+
 
     <section class="main">
       <h2>The most affortable place to stay in the san franciso bay area</h2>
@@ -17,7 +19,7 @@
         <img src="../assets/images/Rectangle 1.png" />
 
         <div class="select">
-          <select>
+          <select id="select1">
             <option>All Types</option>
             <option>Apartment</option>
             <option>House</option>
@@ -32,10 +34,8 @@
             <option>Studio</option>
           </select>
           <div class="search">
-            <input type="search" />
-            <!-- <font-awesome-icon
-              icon="fa-sharp fa-solid fa-magnifying-glass"
-            /> -->
+            <img src="../assets/images/search.png" alt="search" />
+            <button type="search"></button>
           </div>
         </div>
       </div>
@@ -57,14 +57,28 @@ export default {
   background-position: center;
   height: 100vh;
 }
+
 nav {
   display: flex;
-  justify-content: space-between;
   padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10px;
+  padding-left: 20px;
 }
+
+nav img {
+  justify-content: left;
+  margin-left: 10%;
+}
+
 .nav-links {
   display: flex;
+  flex: 1 0 auto;
+  gap: 10px;
   list-style: none;
+  justify-content: center;
 }
 .nav-links li {
   padding: 0 20px;
@@ -73,10 +87,15 @@ nav {
   color: #fff;
 }
 
+hr{
+  width: 80%;
+  margin-left: 10%;
+}
+
 .main {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   margin: 20px;
   padding: 20px;
@@ -91,25 +110,32 @@ nav {
 }
 
 .main h2 {
-  font-size: 50px;
-  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
   font-weight: 700;
+  font-size: 52px;
   line-height: 70px;
   letter-spacing: -1px;
   text-transform: capitalize;
-  top: 30px;
+  color: #ffffff;
 }
 
 .select {
   background: #fff;
-  height: 55px;
-  width: 350px;
+  height: 50px;
+  width: 320px;
   border-radius: 10px;
+  margin-left: 15px;
 }
 
 select {
+  padding: 2px;
   height: 50px;
-  width: 120px;
+  width: 150px;
+}
+
+#select1 {
+  border-right: 0px;
 }
 
 .select {
@@ -120,20 +146,22 @@ select {
   padding: 20px;
 }
 
-input {
+button {
   position: relative;
   width: 50px;
-  height: 51px;
+  height: 50px;
   background: #23a6f0;
   border: 1px solid #e6e6e6;
   border-radius: 0px 5px 5px 0px;
   color: white;
+  cursor: pointer;
 }
 
 .search img {
   position: absolute;
+  z-index: 1;
   width: 20px;
   height: 20px;
-  background: black;
+  padding: 15px;
 }
 </style>
