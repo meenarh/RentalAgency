@@ -14,7 +14,7 @@
       <h2>The most affortable place to stay in the san franciso bay area</h2>
 
       <div>
-        <img src="../assets/images/Rectangle 1.jpg" />
+        <img src="../assets/images/Rectangle 1.png" />
 
         <div class="select">
           <select>
@@ -33,9 +33,10 @@
           </select>
           <div class="search">
             <input type="search" />
-            <img src="../assets/images/search.png" />
+            <font-awesome-icon
+              icon="fa-sharp fa-solid fa-magnifying-glass"
+            />
           </div>
-   
         </div>
       </div>
     </section>
@@ -86,6 +87,7 @@ nav {
   height: 400px;
   border-radius: 10px;
   margin-bottom: 10px;
+  background: none;
 }
 
 .main h2 {
@@ -100,31 +102,38 @@ nav {
 
 .select {
   background: #fff;
-  height: 70px;
-  width: 400px;
+  height: 55px;
+  width: 350px;
   border-radius: 10px;
-  padding: 5px;
 }
 
 select {
-  height: 58px;
+  height: 50px;
   width: 120px;
 }
 
+.select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+
 input {
-   /* position: relative; */
-  width: 60px;
-  height: 60px;
+  position: relative;
+  width: 50px;
+  height: 51px;
   background: #23a6f0;
   border: 1px solid #e6e6e6;
   border-radius: 0px 5px 5px 0px;
   color: white;
 }
 
-.search img{
-   /* position: absolute; */
-   width: 20px;
-   height: 20px;
-   background: black;
+.search img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: black;
 }
 </style>
