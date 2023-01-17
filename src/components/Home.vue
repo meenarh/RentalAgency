@@ -57,6 +57,7 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  padding: 0px 120px;
 }
 
 nav {
