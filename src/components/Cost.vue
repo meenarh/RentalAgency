@@ -17,25 +17,25 @@
         </div>
         <div class="icon">
           <span>
-            <img src="../assets/images/dollarIcon.svg" alt="" />
+            <img src="../assets/images/wisdom.svg" alt="" />
           </span>
           <p>Enjoy wisdom of community!</p>
         </div>
         <div class="icon">
           <span>
-            <img src="../assets/images/dollarIcon.svg" alt="" />
+            <img src="../assets/images/stack-line 1.svg" alt="" />
           </span>
           <p>Let's somebody else take care of Landlord!</p>
         </div>
         <div class="icon">
           <span>
-            <img src="../assets/images/dollarIcon.svg" alt="" />
+            <img src="../assets/images/plant-line 1.svg" alt="" />
           </span>
           <p>Enjoy peaceful Environment!</p>
         </div>
         <div class="icon">
           <span>
-            <img src="../assets/images/dollarIcon.svg" alt="" />
+            <img src="../assets/images/shield-star-line 1.svg" alt="" />
           </span>
           <p>
             Stay Safe! <br />
@@ -44,7 +44,7 @@
         </div>
         <div class="icon">
           <span>
-            <img src="../assets/images/dollarIcon.svg" alt="" />
+            <img src="../assets/images/eye-2-line 1.svg" alt="" />
           </span>
           <p>
             Pay for what <br />
@@ -70,7 +70,7 @@ export default {
 
 <style scoped>
 .cost {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   padding: 93px 120px;
   display: flex;
   flex-direction: column;
