@@ -56,7 +56,7 @@
         <!-- the icons -->
         <!-- the icons -->
         <!-- the icons -->
-        <!-- the icons -->[]
+        <!-- the icons -->
       </div>
     </div>
   </div>
